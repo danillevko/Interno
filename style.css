@@ -80,13 +80,14 @@
     padding-top: 188px;
     width: 595px;
     height: 192px;
+    margin: 0;
+    padding-bottom: 20px;
 }
 
 .hero-span {
+    display: block;
     height: 33px;
     width: 577px;
-    padding-top: 20px;
-    margin-bottom: 35px;
     font-family: var(--main-font);
     font-weight: 400px;
     font-size: 22px;
@@ -94,5 +95,14 @@
 }
 
 .hero-btn {
+    font-family: var(--main-font);
+    font-weight: 400px;
+    font-size: 18px;
+    margin-top: 35px;
     display: block;
+    background-color: var(--main-color);
+    padding: 22px 67px 22px 34px;
+    color: white;
+    border-radius: 18px;
+    border: 2px solid var(--main-color);
 }
