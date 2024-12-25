@@ -5,6 +5,7 @@
     --span-color: #4D5053;
     /* fonts */
     --main-font: "Jost", serif;
+    --secondary-font: "DM Serif Display", serif;
 }
 
 /* header */
@@ -63,13 +64,16 @@
 
 /* hero section */
 
-.main {}
+.main {
+    outline: 1px solid darkblue;
+}
 
 .section-hero {
     background-image: url(./imgs/hero-bg.png);
     height: 831px;
     border-bottom-left-radius: 290px;
     display: block;
+    outline: 1px solid darkcyan;
 }
 
 .hero-title {
@@ -82,6 +86,7 @@
     height: 192px;
     margin: 0;
     padding-bottom: 20px;
+    outline: 1px solid darkgoldenrod;
 }
 
 .hero-span {
@@ -92,6 +97,7 @@
     font-weight: 400px;
     font-size: 22px;
     color: var(--span-color);
+    outline: 1px solid darkgray;
 }
 
 .hero-btn {
@@ -105,4 +111,153 @@
     color: white;
     border-radius: 18px;
     border: 2px solid var(--main-color);
+    outline: 1px solid darkorchid;
+}
+
+/* services section */
+
+.section-services {}
+
+.secvices-list {
+    display: flex;
+    list-style: none;
+    margin-top: 175px;
+    gap: 93px;
+    text-align: center;
+    outline: 1px solid darkorange;
+}
+
+.services-item {
+    width: 297px;
+    outline: 1px solid darkkhaki;
+}
+
+.services-title {
+    margin-bottom: 17px;
+    color: var(--main-color);
+    font-family: var(--secondary-font);
+    font-weight: 400px;
+    font-size: 25px;
+    outline: 1px solid darkolivegreen;
+}
+
+.services-description {
+    margin-bottom: 35px;
+    color: var(--span-color);
+    font-family: var(--main-font);
+    font-weight: 400px;
+    font-size: 22px;
+    outline: 1px solid violet;
+}
+
+.services-link {
+    text-decoration: none;
+    color: var(--span-color);
+    font-family: var(--main-font);
+    font-weight: 400px;
+    font-size: 27px;
+    outline: 1px solid salmon;
+}
+
+.services-img {
+    width: 24px;
+    height: 17px;
+    margin-left: 6px;
+    outline: 1px solid forestgreen;
+}
+
+/* contacts-section */
+
+.section-contacts {
+    outline: 1px solid black;
+    margin-top: 100px;
+}
+
+.contacts-wrapper {
+    display: flex;
+    outline: 1px solid navy;
+}
+
+.contacts-card {
+    outline: 1px solid brown;
+    width: 592px;
+}
+
+.contacts-title {
+    outline: 1px solid navajowhite;
+    margin-bottom: 42px;
+    width: 450px;
+    height: 130px;
+    font-family: var(--secondary-font);
+    font-size: 50px;
+    font-weight: 400px;
+    color: var(--main-color);
+}
+
+.contacts-slogan {
+    outline: 1px solid maroon;
+    margin-bottom: 46px;
+    width: 531px;
+    font-family: var(--main-font);
+    font-size: 22px;
+    font-weight: 400px;
+    color: var(--span-color);
+}
+
+.contacts-number {
+    outline: 1px solid chartreuse;
+    display: flex;
+}
+
+.contacts-icon {
+    outline: 1px solid silver;
+    background-image: url(./imgs/contacts-bg-icon.png);
+    width: 34px;
+    height: 34px;
+    background-size: contain;
+    padding: 30px;
+    margin-right: 20px;
+}
+
+.tel-wrapper {
+    display: block;
+}
+
+.contacts-tel {
+    outline: 1px solid saddlebrown;
+    color: var(--span-color);
+    font-family: var(--main-font);
+    font-weight: 400px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.contacts-action {
+    outline: 1px solid slategrey;
+    color: var(--span-color);
+    font-family: var(--main-font);
+    font-weight: 400px;
+    font-size: 22px;
+}
+
+.contacts-btn {
+    outline: 1px solid aqua;
+    margin-top: 50px;
+    width: 263px;
+    height: 71px;
+    background-color: var(--main-color);
+    border-radius: 18px;
+    color: white;
+    font-family: var(--main-font);
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+.contacts-photo {
+    outline: 1px solid royalblue;
+    width: 592px;
+}
+
+.contacts-img {
+    outline: 1px solid indigo;
 }
