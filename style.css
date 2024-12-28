@@ -354,3 +354,15 @@
     outline: 1px solid royalblue;
     margin: 0;
 }
+
+/* section-brands */
+
+.section-brands {
+    outline: 1px solid indianred;
+}
+
+.brands-img {
+    margin-top: 140px;
+    margin-bottom: 100px;
+    outline: 1px solid orchid;
+}
