@@ -136,7 +136,7 @@
     margin-bottom: 17px;
     color: var(--main-color);
     font-family: var(--secondary-font);
-    font-weight: 400px;
+    font-weight: 300;
     font-size: 25px;
     outline: 1px solid darkolivegreen;
 }
@@ -190,7 +190,7 @@
     height: 130px;
     font-family: var(--secondary-font);
     font-size: 50px;
-    font-weight: 400px;
+    font-weight: 300;
     color: var(--main-color);
 }
 
@@ -260,4 +260,97 @@
 
 .contacts-img {
     outline: 1px solid indigo;
+}
+
+/* recalls-section */
+
+.section-recalls {
+    background-color: #F4F0EC;
+    border: #F4F0EC;
+    border-radius: 70px;
+    outline: 1px solid firebrick;
+    margin-top: 140px;
+}
+
+.recalls-title {
+    align-items: center;
+    width: 479px;
+    text-align: center;
+    padding: 103px 360px 43px 360px;
+    font-family: var(--secondary-font);
+    font-weight: 300;
+    font-size: 45px;
+    color: var(--main-color);
+    outline: 1px solid khaki;
+}
+
+.recalls-list {
+    display: flex;
+    list-style: none;
+    gap: 18px;
+    align-items: center;
+    margin: 0;
+    padding: 0 51px 0 51px;
+    outline: 1px solid cadetblue;
+}
+
+.recalls-item {
+    background-color: white;
+    border: white;
+    border-radius: 30px;
+    width: 354px;
+    height: 287px;
+    outline: 1px solid navy;
+
+}
+
+.recalls-wraper {
+    display: flex;
+    padding-top: 55px;
+    height: 77px;
+    width: 289px;
+    padding-left: 35px;
+    text-align: center;
+    padding-bottom: 30px;
+    outline: 1px solid greenyellow;
+}
+
+.recalls-icon {
+    width: 77px;
+    height: 77px;
+    outline: 1px solid hotpink;
+}
+
+.recalls-names-wraper {
+    padding: 6px 49px 6px 20px;
+    outline: 1px solid teal;
+}
+
+.recalls-name {
+    margin: 0;
+    font-family: var(--secondary-font);
+    font-weight: 300;
+    font-size: 25px;
+    color: var(--main-color);
+    outline: 1px solid rebeccapurple;
+}
+
+.recalls-location {
+    font-family: var(--main-font);
+    font-weight: 400px;
+    font-size: 18px;
+    color: var(--span-color);
+    outline: 1px solid yellowgreen;
+}
+
+.recalls-paragraph {
+    width: 274px;
+    height: 90px;
+    padding: 25px 15px 10px 35px;
+    font-family: var(--main-font);
+    font-weight: 400px;
+    font-size: 20px;
+    color: var(--span-color);
+    outline: 1px solid royalblue;
+    margin: 0;
 }
