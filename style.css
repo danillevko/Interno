@@ -13,6 +13,7 @@
 .header {
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-bottom: 18px;
 }
 
 .container {
@@ -74,6 +75,7 @@
     border-bottom-left-radius: 290px;
     display: block;
     outline: 1px solid darkcyan;
+    padding-top: 188px;
 }
 
 .hero-title {
@@ -81,11 +83,9 @@
     font-family: "DM Serif Display", serif;
     font-weight: 400;
     font-size: 80px;
-    padding-top: 188px;
     width: 595px;
     height: 192px;
-    margin: 0;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     outline: 1px solid darkgoldenrod;
 }
 
@@ -112,6 +112,7 @@
     border-radius: 18px;
     border: 2px solid var(--main-color);
     outline: 1px solid darkorchid;
+    cursor: pointer;
 }
 
 /* services section */
@@ -212,11 +213,15 @@
 .contacts-icon {
     outline: 1px solid silver;
     background-image: url(./imgs/contacts-bg-icon.png);
-    width: 34px;
-    height: 34px;
+    width: 93px;
+    height: 93px;
     background-size: contain;
     padding: 30px;
     margin-right: 20px;
+}
+
+.contacts-icon-wrapper{
+
 }
 
 .tel-wrapper {
@@ -251,6 +256,7 @@
     font-family: var(--main-font);
     font-weight: 400px;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .contacts-photo {
@@ -270,13 +276,17 @@
     border-radius: 70px;
     outline: 1px solid firebrick;
     margin-top: 140px;
+    padding-top: 103px;
+    /* padding-bottom: 47px; */
 }
 
 .recalls-title {
     align-items: center;
     width: 479px;
     text-align: center;
-    padding: 103px 360px 43px 360px;
+    /* padding: 103px 360px 43px 360px; */
+    margin: 0 auto;
+    margin-bottom: 47px;
     font-family: var(--secondary-font);
     font-weight: 300;
     font-size: 45px;
@@ -301,17 +311,17 @@
     width: 354px;
     height: 287px;
     outline: 1px solid navy;
-
+    padding: 55px 75px 45px 35px;
 }
 
 .recalls-wraper {
     display: flex;
-    padding-top: 55px;
+    /* padding-top: 55px; */
     height: 77px;
     width: 289px;
-    padding-left: 35px;
+    /* margin-left: 35px; */
     text-align: center;
-    padding-bottom: 30px;
+    /* margin-bottom: 30px; */
     outline: 1px solid greenyellow;
 }
 
@@ -319,10 +329,11 @@
     width: 77px;
     height: 77px;
     outline: 1px solid hotpink;
+    margin-right: 20px;
 }
 
 .recalls-names-wraper {
-    padding: 6px 49px 6px 20px;
+    /* padding: 6px 49px 6px 20px; */
     outline: 1px solid teal;
 }
 
@@ -336,33 +347,80 @@
 }
 
 .recalls-location {
+    width: 136px;
     font-family: var(--main-font);
     font-weight: 400px;
     font-size: 18px;
     color: var(--span-color);
     outline: 1px solid yellowgreen;
+    /* margin-top: 10px; */
 }
 
 .recalls-paragraph {
     width: 274px;
     height: 90px;
-    padding: 25px 15px 10px 35px;
+    /* padding: 25px 15px 10px 35px; */
     font-family: var(--main-font);
     font-weight: 400px;
     font-size: 20px;
     color: var(--span-color);
     outline: 1px solid royalblue;
-    margin: 0;
+    margin-top: 32px;
+    margin-bottom: 45px;
 }
 
 /* section-brands */
 
 .section-brands {
-    outline: 1px solid indianred;
+    margin-top: 140px;
+    margin-bottom: 100px;
+    outline: 1px solid ivory;
+}
+
+.brands-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0;
+    vertical-align: center;
+    align-items: center;
+    outline: 1px solid whitesmoke;
+}
+
+.brands-item {
+    outline: 1px solid rosybrown;
 }
 
 .brands-img {
-    margin-top: 140px;
-    margin-bottom: 100px;
-    outline: 1px solid orchid;
+    outline: 1px solid tan;
+}
+
+.brand1 {
+    width: 132px;
+    height: 43px;
+    outline: 1px solid teal;
+}
+
+.brand2 {
+    width: 103px;
+    height: 103px;
+    outline: 1px solid turquoise;
+}
+
+.brand3 {
+    width: 164px;
+    height: 43px;
+    outline: 1px solid yellow;
+}
+
+.brand4 {
+    width: 145px;
+    height: 45px;
+    outline: 1px solid powderblue;
+}
+
+.brand5 {
+    width: 117px;
+    height: 48px;
+    outline: 1px solid palevioletred;
 }
