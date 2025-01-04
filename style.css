@@ -427,6 +427,7 @@
 
 .section-projects {
     margin-bottom: 80px;
+    outline: 1px solid palevioletred;
 }
 
 .projects-title {
@@ -439,6 +440,7 @@
     font-size: 47px;
     font-weight: 400px;
     color: var(--main-color);
+    outline: 1px solid palevioletred;
 }
 
 .projects-paragraph {
@@ -452,6 +454,7 @@
     font-weight: 400px;
     font-size: 22px;
     color: var(--span-color);
+    outline: 1px solid palevioletred;
 }
 
 .projects-list {
@@ -459,10 +462,12 @@
     display: flex;
     padding: 0;
     gap: 20px;
+    outline: 1px solid palevioletred;
 }
 
 .projects-item {
     width: 590px;
+    outline: 1px solid palevioletred;
 }
 
 .projects-img {
@@ -470,6 +475,7 @@
     height: 661px;
     border-top-right-radius: 80px;
     margin-top: 61px;
+    outline: 1px solid palevioletred;
 }
 
 .projects-name {
@@ -479,6 +485,7 @@
     font-size: 24px;
     font-weight: 400px;
     color: var(--main-color);
+    outline: 1px solid palevioletred;
 }
 
 .projects-style {
@@ -486,6 +493,7 @@
     font-weight: 400px;
     font-size: 22px;
     color: var(--span-color);
+    outline: 1px solid palevioletred;
 }
 
 .projects-arrow {
@@ -493,14 +501,64 @@
     height: 70px;
     padding: 30px;
     background-image: url(./imgs/bgarrow.png);
+    outline: 1px solid palevioletred;
 }
 
-.projects-li-wrapper{
+.projects-li-wrapper {
     display: flex;
     justify-content: space-between;
-    
+    outline: 1px solid palevioletred;
 }
 
-.projects-name-wrapper{
+.projects-name-wrapper {
     height: 70px;
+    outline: 1px solid palevioletred;
+}
+
+/* reasoning section */
+
+.section-reasoning {
+    outline: 1px solid palevioletred;
+    background-color: #F4F0EC;
+    height: 475px;
+}
+
+.reasoning-list {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    outline: 1px solid fuchsia;
+    padding: 140px 120px;
+}
+
+.reasoning-item {
+    width: 288px;
+    height: 195px;
+    text-align: center;
+    outline: 1px solid palevioletred;
+    vertical-align: center;
+}
+
+.reasoning-num {
+    outline: 1px solid palevioletred;
+    height: 128px;
+    margin: 0 auto;
+    font-family: var(--secondary-font);
+    font-size: 85px;
+    font-weight: 400px;
+    color: #CDA274;
+}
+
+.reasoning-span {
+    outline: 1px solid palevioletred;
+    width: 200px;
+    height: 33px;
+    font-family: var(--main-font);
+    font-weight: 400px;
+    font-size: 22px;
+    color: var(--span-color);
+}
+
+.reasoning-wrapper{
+    outline: right 1px #CDA274;
 }
