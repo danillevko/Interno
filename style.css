@@ -18,21 +18,18 @@
 
 .container {
     width: 1200px;
-    outline: 1px solid red;
     margin: 0 auto;
 }
 
 .header-logo {
     width: 177px;
     height: 50px;
-    outline: 1px solid blue;
 }
 
 .logo {}
 
 .header-wraper {
     display: flex;
-    outline: 1px solid green;
     justify-content: space-between;
     align-items: center;
 }
@@ -40,7 +37,6 @@
 .header-list {
     display: flex;
     gap: 40px;
-    outline: 1px solid yellow;
     list-style: none;
 }
 
@@ -49,32 +45,24 @@
     font-family: var(--main-font);
     font-weight: 400px;
     font-size: 20px;
-    outline: 1px solid black;
 }
 
 .header-link {
     color: var(--main-color);
     text-decoration: none;
-    outline: 1px solid purple;
 }
 
 .active-header-link {
     color: var(--active-color);
-    outline: 1px solid pink;
 }
 
 /* hero section */
-
-.section-main {
-    outline: 1px solid darkblue;
-}
 
 .section-hero {
     background-image: url(./imgs/hero-bg.png);
     height: 831px;
     border-bottom-left-radius: 290px;
     display: block;
-    outline: 1px solid darkcyan;
     padding-top: 188px;
 }
 
@@ -86,7 +74,6 @@
     width: 595px;
     height: 192px;
     margin-bottom: 20px;
-    outline: 1px solid darkgoldenrod;
 }
 
 .hero-span {
@@ -97,7 +84,6 @@
     font-weight: 400px;
     font-size: 22px;
     color: var(--span-color);
-    outline: 1px solid darkgray;
 }
 
 .hero-btn {
@@ -111,8 +97,11 @@
     color: white;
     border-radius: 18px;
     border: 2px solid var(--main-color);
-    outline: 1px solid darkorchid;
     cursor: pointer;
+}
+.hero-arrow{
+    vertical-align: center;
+    margin-left: 50px;
 }
 
 /* services section */
@@ -125,12 +114,10 @@
     margin-top: 175px;
     gap: 93px;
     text-align: center;
-    outline: 1px solid darkorange;
 }
 
 .services-item {
     width: 297px;
-    outline: 1px solid darkkhaki;
 }
 
 .services-title {
@@ -139,7 +126,6 @@
     font-family: var(--secondary-font);
     font-weight: 300;
     font-size: 25px;
-    outline: 1px solid darkolivegreen;
 }
 
 .services-description {
@@ -148,7 +134,6 @@
     font-family: var(--main-font);
     font-weight: 400px;
     font-size: 22px;
-    outline: 1px solid violet;
 }
 
 .services-link {
@@ -156,36 +141,31 @@
     color: var(--span-color);
     font-family: var(--main-font);
     font-weight: 400px;
-    font-size: 27px;
-    outline: 1px solid salmon;
+    font-size: 18px;
 }
 
 .services-img {
     width: 24px;
     height: 17px;
     margin-left: 6px;
-    outline: 1px solid forestgreen;
+    vertical-align: center;
 }
 
 /* contacts-section */
 
 .section-contacts {
-    outline: 1px solid black;
     margin-top: 100px;
 }
 
 .contacts-wrapper {
     display: flex;
-    outline: 1px solid navy;
 }
 
 .contacts-card {
-    outline: 1px solid brown;
     width: 592px;
 }
 
 .contacts-title {
-    outline: 1px solid navajowhite;
     margin-bottom: 42px;
     width: 450px;
     height: 130px;
@@ -196,7 +176,6 @@
 }
 
 .contacts-slogan {
-    outline: 1px solid maroon;
     margin-bottom: 46px;
     width: 531px;
     font-family: var(--main-font);
@@ -206,12 +185,10 @@
 }
 
 .contacts-number {
-    outline: 1px solid chartreuse;
     display: flex;
 }
 
 .contacts-icon {
-    outline: 1px solid silver;
     background-image: url(./imgs/contacts-bg-icon.png);
     width: 93px;
     height: 93px;
@@ -227,7 +204,6 @@
 }
 
 .contacts-tel {
-    outline: 1px solid saddlebrown;
     color: var(--span-color);
     font-family: var(--main-font);
     font-weight: 400px;
@@ -236,7 +212,6 @@
 }
 
 .contacts-action {
-    outline: 1px solid slategrey;
     color: var(--span-color);
     font-family: var(--main-font);
     font-weight: 400px;
@@ -244,7 +219,6 @@
 }
 
 .contacts-btn {
-    outline: 1px solid aqua;
     margin-top: 50px;
     width: 263px;
     height: 71px;
@@ -257,13 +231,16 @@
     cursor: pointer;
 }
 
+.contacts-arrow{
+    vertical-align: center;
+    margin-left: 35px;
+}
+
 .contacts-photo {
-    outline: 1px solid royalblue;
     width: 592px;
 }
 
 .contacts-img {
-    outline: 1px solid indigo;
 }
 
 /* recalls-section */
@@ -272,24 +249,20 @@
     background-color: #F4F0EC;
     border: #F4F0EC;
     border-radius: 70px;
-    outline: 1px solid firebrick;
     margin-top: 140px;
     padding-top: 103px;
-    /* padding-bottom: 47px; */
 }
 
 .recalls-title {
     align-items: center;
     width: 479px;
     text-align: center;
-    /* padding: 103px 360px 43px 360px; */
     margin: 0 auto;
     margin-bottom: 47px;
     font-family: var(--secondary-font);
     font-weight: 300;
     font-size: 45px;
     color: var(--main-color);
-    outline: 1px solid khaki;
 }
 
 .recalls-list {
@@ -299,7 +272,6 @@
     align-items: center;
     margin: 0;
     padding: 0 51px 0 51px;
-    outline: 1px solid cadetblue;
 }
 
 .recalls-item {
@@ -308,31 +280,23 @@
     border-radius: 30px;
     width: 354px;
     height: 287px;
-    outline: 1px solid navy;
     padding: 55px 75px 45px 35px;
 }
 
 .recalls-wraper {
     display: flex;
-    /* padding-top: 55px; */
     height: 77px;
     width: 289px;
-    /* margin-left: 35px; */
     text-align: center;
-    /* margin-bottom: 30px; */
-    outline: 1px solid greenyellow;
 }
 
 .recalls-icon {
     width: 77px;
     height: 77px;
-    outline: 1px solid hotpink;
     margin-right: 20px;
 }
 
 .recalls-names-wraper {
-    /* padding: 6px 49px 6px 20px; */
-    outline: 1px solid teal;
 }
 
 .recalls-name {
@@ -341,7 +305,6 @@
     font-weight: 300;
     font-size: 25px;
     color: var(--main-color);
-    outline: 1px solid rebeccapurple;
 }
 
 .recalls-location {
@@ -350,19 +313,15 @@
     font-weight: 400px;
     font-size: 18px;
     color: var(--span-color);
-    outline: 1px solid yellowgreen;
-    /* margin-top: 10px; */
 }
 
 .recalls-paragraph {
     width: 274px;
     height: 90px;
-    /* padding: 25px 15px 10px 35px; */
     font-family: var(--main-font);
     font-weight: 400px;
     font-size: 20px;
     color: var(--span-color);
-    outline: 1px solid royalblue;
     margin-top: 32px;
     margin-bottom: 45px;
 }
@@ -372,7 +331,6 @@
 .section-brands {
     margin-top: 140px;
     margin-bottom: 100px;
-    outline: 1px solid ivory;
 }
 
 .brands-list {
@@ -382,52 +340,43 @@
     margin: 0;
     vertical-align: center;
     align-items: center;
-    outline: 1px solid whitesmoke;
 }
 
 .brands-item {
-    outline: 1px solid rosybrown;
 }
 
 .brands-img {
-    outline: 1px solid tan;
 }
 
 .brand1 {
     width: 132px;
     height: 43px;
-    outline: 1px solid teal;
 }
 
 .brand2 {
     width: 103px;
     height: 103px;
-    outline: 1px solid turquoise;
 }
 
 .brand3 {
     width: 164px;
     height: 43px;
-    outline: 1px solid yellow;
 }
 
 .brand4 {
     width: 145px;
     height: 45px;
-    outline: 1px solid powderblue;
 }
 
 .brand5 {
     width: 117px;
     height: 48px;
-    outline: 1px solid palevioletred;
 }
 
 /* projects-section */
 
 .section-projects {
     margin-bottom: 80px;
-    outline: 1px solid palevioletred;
 }
 
 .projects-title {
@@ -440,7 +389,6 @@
     font-size: 47px;
     font-weight: 400px;
     color: var(--main-color);
-    outline: 1px solid palevioletred;
 }
 
 .projects-paragraph {
@@ -454,7 +402,6 @@
     font-weight: 400px;
     font-size: 22px;
     color: var(--span-color);
-    outline: 1px solid palevioletred;
 }
 
 .projects-list {
@@ -462,12 +409,10 @@
     display: flex;
     padding: 0;
     gap: 20px;
-    outline: 1px solid palevioletred;
 }
 
 .projects-item {
     width: 590px;
-    outline: 1px solid palevioletred;
 }
 
 .projects-img {
@@ -475,7 +420,6 @@
     height: 661px;
     border-top-right-radius: 80px;
     margin-top: 61px;
-    outline: 1px solid palevioletred;
 }
 
 .projects-name {
@@ -485,7 +429,6 @@
     font-size: 24px;
     font-weight: 400px;
     color: var(--main-color);
-    outline: 1px solid palevioletred;
 }
 
 .projects-style {
@@ -493,33 +436,32 @@
     font-weight: 400px;
     font-size: 22px;
     color: var(--span-color);
-    outline: 1px solid palevioletred;
+}
+
+.project-link{
+    vertical-align: center;
 }
 
 .projects-arrow {
-    width: 10px;
-    height: 10px;
+    width: 70px;
+    height: 70px;
     padding: 30px;
     background-image: url(./imgs/bgarrow.png);
     background-repeat: no-repeat;
-    outline: 1px solid palevioletred;
 }
 
 .projects-li-wrapper {
     display: flex;
     justify-content: space-between;
-    outline: 1px solid palevioletred;
 }
 
 .projects-name-wrapper {
     height: 70px;
-    outline: 1px solid palevioletred;
 }
 
 /* reasoning section */
 
 .section-reasoning {
-    outline: 1px solid palevioletred;
     background-color: #F4F0EC;
     height: 475px;
     margin-bottom: 130px;
@@ -529,7 +471,6 @@
     display: flex;
     gap: 16px;
     list-style: none;
-    outline: 1px solid fuchsia;
     padding: 140px 120px;
 }
 
@@ -537,13 +478,11 @@
     width: 288px;
     height: 195px;
     text-align: center;
-    outline: 1px solid palevioletred;
     vertical-align: center;
 
 }
 
 .reasoning-num {
-    outline: 1px solid palevioletred;
     height: 128px;
     margin: 0 auto;
     font-family: var(--secondary-font);
@@ -553,7 +492,6 @@
 }
 
 .reasoning-span {
-    outline: 1px solid palevioletred;
     width: 200px;
     height: 33px;
     font-family: var(--main-font);
@@ -635,9 +573,6 @@
 .blogs-title {
     width: 335px;
     height: 296px;
-    /* border: 1px solid white;
-    border-radius: 8px;
-    background-color: white; */
     text-align: center;
     margin: 0px;
     background-image: url(./imgs/blogs-bg1.png);
@@ -649,12 +584,16 @@
     color: #4D5053;
 }
 
+.blogs-title-span{
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
 .two {
     width: 335px;
     height: 296px;
-    /* border: 1px solid white;
-    border-radius: 8px;
-    background-color: white; */
     text-align: center;
     margin: 0px;
     background-image: url(./imgs/blogs-bg2.png);
@@ -752,12 +691,9 @@
 
 
 .blogs-arrow {
-    width: 9px;
-    height: 16px;
-    padding: 21px;
+    padding: 20px;
     background-image: url(./imgs/bgarrow.png);
     background-repeat: no-repeat;
-    outline: 1px solid palevioletred;
 }
 
 /* join-sectyion */
@@ -777,7 +713,6 @@
     color: white;
     text-align: center;
     margin: 0 auto;
-    /* padding-top: 100px; */
     font-family: var(--secondary-font);
     font-size: 50px;
     font-weight: 400px;
@@ -807,17 +742,20 @@
     font-weight: 400;
 }
 
+.join-arrow{
+    vertical-align: center;
+    margin-left: 30px;
+}
+
 /* footer */
 
 .section-footer {
-    height: 608px;
-    outline: 1px solid palevioletred;
+    height: 450px;
 }
 
 .footer-main-list {
     list-style: none;
     display: flex;
-    outline: 1px solid palevioletred;
 }
 
 .first{
@@ -826,14 +764,12 @@
 
 .footer-item-wrapper {
     height: 374px;
-    outline: 1px solid palevioletred;
 }
 
 .footer-logo {
     width: 177px;
     height: 50px;
     margin-bottom: 15px;
-    outline: 1px solid palevioletred;
 }
 
 .footer-paragraph {
@@ -843,20 +779,17 @@
     width: 326px;
     height: 66px;
     margin-bottom: 10px;
-    outline: 1px solid palevioletred;
     color: var(--span-color);
 }
 
 .footer-frame-img {
     width: 333px;
     height: 53px;
-    outline: 1px solid palevioletred;
 }
 .footer-list-name {
     font-family: var(--secondary-font);
     font-size: 25px;
     font-weight: 400px;
-    outline: 1px solid palevioletred;
     margin: 0;
     margin-bottom: 21px;
     color: var(--main-color);
@@ -865,12 +798,10 @@
 .footer-list {
     list-style: none;
     width: 210px;
-    outline: 1px solid palevioletred;
     padding: 0;
 }
 
 .footer-item {
-    outline: 1px solid palevioletred;
     margin-bottom: 21px;
     
 }
@@ -880,7 +811,6 @@
     font-family: var(--main-font);
     font-size: 22px;
     font-weight: 400px;
-    outline: 1px solid palevioletred;
     color: var(--span-color);
 }
 
@@ -889,7 +819,8 @@
     font-family: var(--main-font);
     font-size: 22px;
     font-weight: 400px;
-    text-decoration: none;
+    font-style: normal;
+    color: #4D5053;
 }
 
 .email{
@@ -915,7 +846,6 @@
 }
 
 .create-by {
-    outline: 1px solid palevioletred;
     font-family: var(--main-font);
     font-size: 22px;
     font-weight: 400px;
@@ -926,7 +856,6 @@
 }
 
 .author {
-    outline: 1px solid palevioletred;
     font-family: var(--main-font);
     font-size: 22px;
     font-weight: 400px;
