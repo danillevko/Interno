@@ -761,6 +761,8 @@
 .join-arrow{
     vertical-align: center;
     margin-left: 30px;
+    width: 22px;
+    height: 22px;
 }
 
 /* footer */
@@ -799,10 +801,23 @@
     color: var(--span-color);
 }
 
-.footer-frame-img {
+/* .footer-frame-img {
     width: 333px;
     height: 53px;
+} */
+
+.footer-frame-link{
+    display: flex;
+    gap: 40px;
+    vertical-align: bottom;
 }
+
+ .footer-icon{
+    width: 18px;
+    height: 19px;
+    vertical-align: bottom;
+ }
+
 .footer-list-name {
     font-family: var(--secondary-font);
     font-size: 25px;
